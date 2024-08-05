@@ -9,7 +9,7 @@ public class Car extends Vehicle{
 	//using "boot" here over "trunk" - just a matter of preference.
 	private double carBootSize;
 	
-	//constructor to initialise the carBootSize attribute and the car object + call the constructor of the superclass (Vehicle)
+	//constructor to initialise the carBootSize attribute and the carBootSize object + call the constructor of the superclass (Vehicle)
 	public Car(String vehicleManufacturer, String vehicleModel, int vehicleProductionYear, double carBootSize) {
 		super(vehicleManufacturer, vehicleModel, vehicleProductionYear);
 		this.carBootSize = carBootSize;
